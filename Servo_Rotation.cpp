@@ -15,12 +15,12 @@ void setup()
 void loop()
 {
   position=0;
-  for(position=1;position<=179;position++)
+  for(position=1;position<=179;position++) // forward rotation
   {
     servo_9.write(position);
     delay(20);
   }
-  for(position=179;position>=1;position--)
+  for(position=179;position>=1;position--)// backward rotation
   {
     servo_9.write(position);
     delay(20);
