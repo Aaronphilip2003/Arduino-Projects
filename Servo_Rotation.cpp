@@ -15,7 +15,7 @@ void setup()
 void loop()
 {
   position=0;
-  for(position=1;position<=179;position++) // forward rotation
+  for(position=1;position<=178;position++) // forward rotation
   {
     servo_9.write(position);
     delay(20);
